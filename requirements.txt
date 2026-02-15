@@ -6,4 +6,7 @@ certifi
 scikit-learn
 pyaml
 mlflow
+fastapi
+uvicorn
+python-multipart
 ##-e .

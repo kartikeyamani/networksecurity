@@ -1,0 +1,17 @@
+[ 2026-02-14 16:59:05,788 ] 24 root - INFO - Initiated Data Ingestion
+[ 2026-02-14 16:59:08,135 ] 52 root - INFO - Performed train test split on the dataframe
+[ 2026-02-14 16:59:08,136 ] 54 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-02-14 16:59:08,136 ] 59 root - INFO - Initiated train test split
+[ 2026-02-14 16:59:08,192 ] 66 root - INFO - Train test split files are created properly
+[ 2026-02-14 16:59:08,192 ] 26 root - INFO - All the data have been ingested successfully
+[ 2026-02-14 16:59:08,192 ] 27 root - INFO - Data validation has been intitated
+[ 2026-02-14 16:59:08,219 ] 34 root - INFO - Required number of columns:2
+[ 2026-02-14 16:59:08,219 ] 35 root - INFO - Dataframe has total columns:31
+[ 2026-02-14 16:59:08,219 ] 34 root - INFO - Required number of columns:2
+[ 2026-02-14 16:59:08,219 ] 35 root - INFO - Dataframe has total columns:31
+[ 2026-02-14 16:59:08,351 ] 32 root - INFO - Data validation has been completed
+[ 2026-02-14 16:59:08,351 ] 33 root - INFO - Data Transformation has been initiated
+[ 2026-02-14 16:59:08,351 ] 45 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-02-14 16:59:08,374 ] 33 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-02-14 16:59:08,398 ] 39 root - INFO - Starting Model Trainer
+[ 2026-02-14 17:01:59,916 ] 101 root - INFO - Model Trainer Artifact ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_14_2026_16_58_59\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9916886276099737, precision_score=0.9904839036242155, recall_score=0.9928962857722752), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9717969379532635, precision_score=0.963258785942492, recall_score=0.9804878048780488))
